@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vn" xmlns:th="http://www.thymeleaf.org"
+				xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+	<!-- Main Head -->	
+<head th:replace="fragments :: page_head('Lỗi', 'none')"></head>
+	<!-- End Head -->
+<body>
+
+	<!-- Main Header -->	
+<div th:replace="fragments/header :: menu"></div>
+	<!-- End Header -->
+	<main class="app-content">
+	<div class="text-center">
+		<img class="img-fluid" alt="" th:src="@{/images/error.jpg}">
+	</div>
+	</main>
+
+</body>
+</html>

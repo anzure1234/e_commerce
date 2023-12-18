@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="vn" xmlns:th="http://www.thymeleaf.org"
+				xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+	<!-- Main Head -->	
+<head th:replace="fragments :: page_head('403', 'none')"></head>
+	<!-- End Head -->
+<body>
+	<!-- Main Header -->	
+<div th:replace="fragments/header :: menu"></div>
+	<!-- End Header -->
+	<main class="app-content">
+	<div class="text-center" style="background: #fff">
+		<img width="50%" class="img-fluid" alt="" th:src="@{/images/403.jpg}">
+	</div>
+	</main>
+</body>
+</html>
